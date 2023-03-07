@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body */
+  body {
+    background-color:white ;
+  }
+  /* navbar (header) */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    list-style: none;
+  }
+  /* items  */
+  .items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  button {
+    width: 70px;
+  }
+  /* like */
+  .like-btn {
+    color: black;
+  }
+  
